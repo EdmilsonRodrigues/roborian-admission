@@ -14,6 +14,7 @@ class User(BaseModel):
     communication_preferences: List[str]
     finances: str
     addresses: List[Address]
+    first_contracted: str
     contract: Optional[Contract]
 
     class Config:
